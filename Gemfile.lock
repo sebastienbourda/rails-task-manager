@@ -223,7 +223,7 @@ DEPENDENCIES
   rails (~> 7.0.3, >= 7.0.3.1)
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 1.5.0.rc1)
   stimulus-rails
   turbo-rails
   tzinfo-data
