@@ -1,0 +1,14 @@
+<!-- app/views/tasks/edit.html.erb -->
+<div class="container">
+  <%= form_for(@task) do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :details %>
+    <%= f.text_field :details %>
+    <div class="checkbox">
+      <%= f.check_box :completed %>
+      <%= f.label :completed %>
+    </div>
+    <%= f.submit %>
+  <% end %>
+</div>
